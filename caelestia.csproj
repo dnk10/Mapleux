@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\anime2.png" />
+    <None Remove="Assets\AnimeSets\catppuccin--visual-studio.png" />
+    <None Remove="Assets\AnimeSets\catppuccin--vscode.png" />
+    <None Remove="Assets\AnimeSets\kou3.jpg" />
+    <None Remove="Assets\AnimeSets\kurukuru.gif" />
+    <None Remove="Assets\AnimeSets\logos--spotify-icon.png" />
+    <None Remove="Assets\AnimeSets\material-symbols--note.png" />
+    <None Remove="Assets\AnimeSets\selfhst--spotify-for-creators.png" />
+    <None Remove="Assets\AnimeSets\simple-icons--gimp.png" />
+    <None Remove="Assets\AnimeSets\simple-icons--mihoyo.png" />
+    <None Remove="Assets\AnimeSets\simple-icons--zenbrowser.png" />
+    <None Remove="Assets\AnimeSets\solar--gallery-bold-duotone.png" />
+    <None Remove="Assets\AnimeSets\tabler--books.png" />
+    <None Remove="Assets\Audio\columbinaLullaby.mp3" />
+    <None Remove="Assets\header1.jpg" />
+    <None Remove="Assets\header2.jpg" />
+    <None Remove="Assets\Wallpapers\header2.jpg" />
+    <None Remove="Assets\Wallpapers\header5.jpg" />
+    <None Remove="Assets\Wallpapers\headerTwo.jpg" />
+    <None Remove="Assets\Wallpapers\inazumaHeader2.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\AnimeSets\catppuccin--visual-studio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\catppuccin--vscode.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\kou3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\logos--spotify-icon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\material-symbols--note.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\selfhst--spotify-for-creators.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\simple-icons--gimp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\simple-icons--mihoyo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\simple-icons--zenbrowser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\tabler--books.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Audio\columbinaLullaby.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wallpapers\columbinaheader.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\AnimeSets\header5.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wallpapers\headerTwo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wallpapers\raidenheader.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\AnimeSets\solar--gallery-bold-duotone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.9" />
+    <PackageReference Include="NAudio" Version="2.3.0" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AnimeSets\kurukuru.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
